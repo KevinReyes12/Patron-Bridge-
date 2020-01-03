@@ -26,7 +26,6 @@ namespace Bridge
             pagoSalario.Asignarpago(new PagoEAdministrativo());
             Console.WriteLine(pagoSalario.Procesarpago());
             Console.WriteLine(pagoSalario.RetrasarPago());
-            pagoSalario.IdPago();
             Console.ReadKey();
         }
     }
